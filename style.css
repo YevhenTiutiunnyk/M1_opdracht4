@@ -236,6 +236,10 @@ html {
    color: white;
 }
 
+audio:last-of-type {
+   width: 20vw;
+}
+
 
 @media screen and (max-width: 1000px) {
  
@@ -257,6 +261,10 @@ html {
       right: 30px;
    }
 
+   .menu-btn {
+      padding: 20px 40px;
+      
+   }
 }
 
 
@@ -276,4 +284,9 @@ html {
       width: 45vw;
 }
 
+
+.menu-btn {
+   padding: 20px 15px;
+   
+}
 }
